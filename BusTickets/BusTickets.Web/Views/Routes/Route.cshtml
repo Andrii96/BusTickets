@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BusTickets.Domain.Entities.Route>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>   
+    <div>
+        <h2>Routes
+            <a asp-action="Create"  data-toggle="toogle" title="Add new route">
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+        </h2>
+        
+    </div>
+</p>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr >
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.From)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.To)
+                </th>
+                <th class="text-center"> Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="text-center">
+            <td>
+                @Html.DisplayFor(modelItem => item.From)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.To)
+            </td>
+            <td> 
+                <a asp-action="Trips" asp-controller="Trips" asp-route-routeId="@item.Id">Trips</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

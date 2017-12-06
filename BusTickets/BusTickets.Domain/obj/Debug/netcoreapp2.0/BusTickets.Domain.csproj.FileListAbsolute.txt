@@ -1,0 +1,9 @@
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\bin\Debug\netcoreapp2.0\BusTickets.Domain.deps.json
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\bin\Debug\netcoreapp2.0\BusTickets.Domain.dll
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\obj\Debug\netcoreapp2.0\BusTickets.Domain.csprojResolveAssemblyReference.cache
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\obj\Debug\netcoreapp2.0\BusTickets.Domain.csproj.CoreCompileInputs.cache
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\obj\Debug\netcoreapp2.0\BusTickets.Domain.AssemblyInfoInputs.cache
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\obj\Debug\netcoreapp2.0\BusTickets.Domain.AssemblyInfo.cs
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\bin\Debug\netcoreapp2.0\BusTickets.Domain.pdb
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\obj\Debug\netcoreapp2.0\BusTickets.Domain.dll
+D:\Андрій\BusTickets\BusTickets\BusTickets.Domain\obj\Debug\netcoreapp2.0\BusTickets.Domain.pdb
